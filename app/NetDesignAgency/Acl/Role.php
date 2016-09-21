@@ -9,6 +9,7 @@ use Zizaco\Entrust\EntrustRole;
 |--------------------------------------------------------------------------
 |this class gives contol over all the roles of the application 
 |
+
 */ 
 class Role extends EntrustRole
 {
