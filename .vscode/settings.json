@@ -354,7 +354,7 @@
 
     // Avoid using 'float'. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
     "css.lint.float": "ignore",
-
+ 
     // Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
     "css.lint.idSelector": "ignore",
 
@@ -651,7 +651,7 @@
     "terminal.integrated.shellArgs.osx": [],
 
     // Chemin de l'interpréteur de commandes utilisé par le terminal sur Windows. Quand vous vous servez des interpréteurs de commandes fournis avec Windows (cmd, PowerShell ou Bash sur Ubuntu), préférez C:Windowssysnative à C:WindowsSystem32 pour utiliser les versions 64 bits.
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\system32\\cmd.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\git-bash.exe",
 
     // Contrôle la famille de polices du terminal. La valeur par défaut est la valeur associée à editor.fontFamily.
     "terminal.integrated.fontFamily": "",
