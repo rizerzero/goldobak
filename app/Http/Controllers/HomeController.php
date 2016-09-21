@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\NetDesignAgency\Goldobak\Goldobak;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -11,9 +12,11 @@ class HomeController extends Controller
      *
      * @return void
      */
-    public function __construct()
+    protected $goldo;
+
+    public function __construct(Goldobak $goldo)
     {
-        $this->middleware('auth');
+        // $this->goldo = $goldo;
     }
 
     /**
@@ -23,6 +26,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return $this->Goldobaker();
+
+        return view('welcome');
     }
 }
